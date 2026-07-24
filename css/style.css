@@ -7,10 +7,10 @@
     --color-bg-darker: #F3EFE6;
     --color-bg-card: rgba(0, 0, 0, 0.03);
     
-    /* Sage Green Accent */
-    --color-accent: #7A8A6B; 
-    --color-accent-light: #9caf88;
-    --color-accent-glow: rgba(122, 138, 107, 0.4);
+    /* Pastel Vibrant Green Accent */
+    --color-accent: #48C9B0; 
+    --color-accent-light: #76D7C4;
+    --color-accent-glow: rgba(72, 201, 176, 0.4);
 
     /* Text Colors */
     --color-text-main: #333333;
@@ -167,7 +167,7 @@ img {
     list-style: none;
     align-items: center;
     gap: 2rem;
-    background-color: rgba(122, 138, 107, 0.85); /* Sage green transparent */
+    background-color: rgba(72, 201, 176, 0.85); /* Pastel green transparent */
     color: #FDFBF7; /* Cream font */
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
@@ -359,7 +359,7 @@ img {
     font-size: clamp(1.5rem, 3vw, 3.5rem);
     margin-bottom: 1.5rem;
     letter-spacing: normal;
-    background-color: rgba(122, 138, 107, 0.85); /* Sage green transparent */
+    background-color: rgba(72, 201, 176, 0.85); /* Pastel green transparent */
     color: #FDFBF7; /* Cream font */
     padding: 1rem 2rem;
     border-radius: 12px;
@@ -542,7 +542,7 @@ img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgba(122, 138, 107, 0.1);
+    background-color: rgba(72, 201, 176, 0.1);
     color: var(--color-accent);
     margin-bottom: 1.5rem;
 }
