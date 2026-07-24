@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Mechatronics Engineering student at the University of Waterloo. Discover my projects, experience, and resume.">
+    <meta name="theme-color" content="#000080">
+    <title>Mechatronics Engineering Portfolio | Automotive Enthusiast</title>
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mechatronics Engineering Student",
+      "jobTitle": "Engineering Student",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "University of Waterloo"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts: Lora (serif) & Inter (sans-serif) for Mercedes-Benz Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Interactive Cursor Elements -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand"></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#about" class="nav-link btn-nav">Resume & Portfolio</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Home Section with Collage Background -->
+    <section id="home" class="hero-section">
+        <!-- Collage Background Container -->
+        <div class="collage-bg" id="collage-bg">
+            <!-- Placeholders for user's car images -->
+            <!-- Mixed Order Collage -->
+            <div class="collage-item"><img src="images/IMG_6220_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_5938_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/car1.jpg_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6361_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6225_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6323_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/car3.jpg_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6113_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6371%20(1)_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_9623_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_5861_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/car5.jpg_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6388_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_5929_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/car6.jpg_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_9618_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6117_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6098_(1)_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6253%20(1)_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6325_(1)_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6220_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6266_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_6223_trail.jpg" alt="Car"></div>
+            <div class="collage-item"><img src="images/IMG_5938_trail.jpg" alt="Car"></div>
+            <div class="collage-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title" id="typewriter-text">hello, i'm farzan<br> engineering student @ <a href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering" target="_blank" rel="noopener noreferrer">uwaterloo</a><br>welcome :)</h1>
+            <div class="hero-cta">
+                <a href="#about" class="btn btn-primary">about me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section bg-darker">
+        <div class="container">
+            <h2 class="section-title">About <span class="accent-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-intro">
+                    <p>
+                        I am a 19 year old engineer with an interest in all things machines, especially cars. I love building things with my hands and understanding the "how" behind the machines we develop. Feel free to browse my website and see what I am working on. Hopefully you find something that's cool :)
+                    </p>
+                    <div class="about-buttons" style="margin-top: 1rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="farzan_toor_resume.pdf" class="btn btn-primary btn-small" target="_blank" rel="noopener noreferrer" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume
+                        </a>
+                        <a href="Farzan Toor Portfolio (4).pdf" class="btn btn-secondary btn-small" target="_blank" rel="noopener noreferrer" download>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Portfolio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Projects Section -->
+    <section class="section experience-projects-section" style="padding: 3rem 0; background-color: var(--color-bg-main);">
+        <div class="container">
+            <h2 class="section-title">Experience <span class="accent-text">/</span> Projects</h2>
+            
+            <div class="grid-3x2-container">
+                <!-- Experience Row -->
+                <div id="experience" class="grid-row" style="scroll-margin-top: 100px;">
+                    <h3 class="row-subtitle">Experience</h3>
+                    <div class="grid-cards-3">
+                        <!-- Incoming Experience -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <img src="images/download.png" alt="Ontario Drive & Gear Logo"
+                                    style="height: 45px; width: auto; margin-bottom: 1rem; object-fit: contain; border-radius: 4px; background-color: #fff; padding: 4px;">
+                                <div class="timeline-date">Incoming S26</div>
+                                <h3 class="timeline-role">Quality Engineering Assistant</h3>
+                                <h4 class="timeline-company">Ontario Drive & Gear</h4>
+                                <p>Incoming @ODG S26</p>
+                            </div>
+                        </div>
+                        <!-- Experience 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <img src="images/uwfe_logo.jpg" alt="FSAE Waterloo Logo"
+                                    style="height: 45px; width: auto; margin-bottom: 1rem; object-fit: contain; border-radius: 4px;">
+                                <div class="timeline-date">Sept 2025 - Present</div>
+                                <h3 class="timeline-role">Aerodynamics Team Member</h3>
+                                <h4 class="timeline-company">FSAE University of Waterloo</h4>
+                                <p>Collaborated on the design and manufacturing of carbon fiber aerodynamic components and
+                                    custom machined parts for the 2026 race car.</p>
+                            </div>
+                        </div>
+                        <!-- Experience 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <img src="images/ford_logo.jpg" alt="Advantage Ford Logo"
+                                    style="height: 45px; width: auto; margin-bottom: 1rem; object-fit: contain; border-radius: 4px;">
+                                <div class="timeline-date">Aug 2023 - Aug 2025</div>
+                                <h3 class="timeline-role">Shop-hand / Lot Attendant</h3>
+                                <h4 class="timeline-company">Advantage Ford</h4>
+                                <p>Maintained a 20+ bay dealership garage and performed routine automotive servicing. Worked
+                                    alongside technicians to review engine failures and streamlined daily operations by managing
+                                    up to 35 vehicles per shift.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Row -->
+                <div id="projects" class="grid-row" style="scroll-margin-top: 100px;">
+                    <h3 class="row-subtitle">Projects</h3>
+                    <div class="grid-cards-3">
+                        <!-- Project 1 -->
+                        <article class="project-card">
+                            <div class="project-img-container">
+                                <img src="images/img-0002.jpg" alt="BMW Fender Repair & CAD">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">BMW Fender Repair & CAD</h3>
+                                <ul class="project-desc-list" style="color: var(--color-text-muted); margin-bottom: 0; padding-left: 1.2rem; font-size: 0.95rem;">
+                                    <li>Developed a 3D fender model in SolidWorks using reference blueprints</li>
+                                    <li>Reformed the damaged bodyline using an autobody hammer and dolly</li>
+                                    <li>Applied body filler, putty, and primer to eliminate surface imperfections</li>
+                                    <li>Applied final automotive paint and clear coat in a professional booth</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- Project 2 -->
+                        <article class="project-card">
+                            <div class="project-img-container">
+                                <img src="images/portfolio_proj2.jpg" alt="Vehicle Restoration">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Vehicle Restoration</h3>
+                                <ul class="project-desc-list" style="color: var(--color-text-muted); margin-bottom: 0; padding-left: 1.2rem; font-size: 0.95rem;">
+                                    <li>Performed rust-proofing and custom rocker panel fabrication on a Ford F-150</li>
+                                    <li>Prepped, sanded, and primed the truck bed for a final paint job</li>
+                                    <li>Disassembled a 4th Gen Camaro for comprehensive paint preparation</li>
+                                    <li>Sanded, primed, and masked the Camaro for its final paint application</li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- Project 3 -->
+                        <article class="project-card">
+                            <div class="project-img-container">
+                                <img src="images/img-0010.jpg" alt="Mini Hood Fabrication">
+                            </div>
+                            <div class="project-info">
+                                <h3 class="project-title">Mini Hood Fabrication</h3>
+                                <ul class="project-desc-list" style="color: var(--color-text-muted); margin-bottom: 0; padding-left: 1.2rem; font-size: 0.95rem;">
+                                    <li>Fabricated a custom mini hood from a 16x16 sheet of metal</li>
+                                    <li>Performed welding, body filler application, and dent repair</li>
+                                    <li>Applied paint, clear coat, and custom Porsche Pink Pig racing decals</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">Farzan Toor</div>
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/farzantoor" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">LinkedIn</a>
+                    <span style="color: var(--color-text-muted); font-weight: 500;">fsrtoor@uwaterloo.ca</span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
