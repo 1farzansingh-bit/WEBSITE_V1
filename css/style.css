@@ -7,10 +7,11 @@
     --color-bg-darker: #F3EFE6;
     --color-bg-card: rgba(0, 0, 0, 0.03);
     
-    /* Pastel Vibrant Green Accent */
-    --color-accent: #48C9B0; 
-    --color-accent-light: #76D7C4;
-    --color-accent-glow: rgba(72, 201, 176, 0.4);
+    /* Pastel Baby Green Accent */
+    --color-accent: #9BE59B; 
+    --color-accent-light: #B2F0B2;
+    --color-accent-glow: rgba(155, 229, 155, 0.4);
+    --color-accent-text: #1B3C22;
 
     /* Text Colors */
     --color-text-main: #333333;
@@ -167,8 +168,8 @@ img {
     list-style: none;
     align-items: center;
     gap: 2rem;
-    background-color: rgba(72, 201, 176, 0.85); /* Pastel green transparent */
-    color: #FDFBF7; /* Cream font */
+    background-color: rgba(155, 229, 155, 0.85); /* Pastel green transparent */
+    color: var(--color-accent-text); /* Dark baby green font */
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
     backdrop-filter: blur(4px);
@@ -202,7 +203,7 @@ img {
     border: 1px solid var(--color-accent);
     padding: 0.5rem 1.25rem;
     border-radius: var(--border-radius);
-    color: #FDFBF7;
+    color: var(--color-accent-text);
     transition: all var(--transition-medium);
 }
 
@@ -213,7 +214,7 @@ img {
 .btn-nav:hover {
     background-color: var(--color-accent-light);
     border-color: var(--color-accent-light);
-    color: #FDFBF7;
+    color: var(--color-accent-text);
     box-shadow: 0 0 15px var(--color-accent-glow);
 }
 
@@ -250,7 +251,7 @@ img {
 
 .btn-primary {
     background-color: var(--color-accent);
-    color: #FDFBF7;
+    color: var(--color-accent-text);
     box-shadow: 0 4px 15px var(--color-accent-glow);
 }
 
@@ -359,8 +360,8 @@ img {
     font-size: clamp(1.5rem, 3vw, 3.5rem);
     margin-bottom: 1.5rem;
     letter-spacing: normal;
-    background-color: rgba(72, 201, 176, 0.85); /* Pastel green transparent */
-    color: #FDFBF7; /* Cream font */
+    background-color: rgba(155, 229, 155, 0.85); /* Pastel green transparent */
+    color: var(--color-accent-text); /* Dark baby green font */
     padding: 1rem 2rem;
     border-radius: 12px;
     display: inline-block;
@@ -369,13 +370,13 @@ img {
 }
 
 .hero-title a {
-    color: #FDFBF7;
+    color: var(--color-accent-text);
     text-decoration: underline;
     transition: color var(--transition-fast);
 }
 
 .hero-title a:hover {
-    color: var(--color-accent-light);
+    color: #111111;
 }
 
 .typing-active::after, .typing-done::after {
@@ -542,7 +543,7 @@ img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgba(72, 201, 176, 0.1);
+    background-color: rgba(155, 229, 155, 0.1);
     color: var(--color-accent);
     margin-bottom: 1.5rem;
 }
